@@ -85,7 +85,7 @@ $app->post('/api/clientes/registro', function (Request $request, Response $respo
 
     } catch (Exception $e) {
 	
-	echo "Es imposible registrar este usuario, intente mas tarde ";
+	echo "Es imposible registrar este usuario en este momento, intente mas tarde ";
 
     }
 
