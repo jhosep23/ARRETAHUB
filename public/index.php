@@ -8,6 +8,8 @@ require '../src/config/conectionDB.php';
 
 $app = new \Slim\App;
 
+$container = $app->getContainer();
+
 //clientes
 require '../src/routes/clientes.php';
 
